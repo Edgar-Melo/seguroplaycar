@@ -1,7 +1,15 @@
 <template>
   <div>
-    <!-- Layout principal da aplicação -->
-    <NuxtPage />
+    <!-- Header global -->
+    <AppHeader />
+
+    <!-- Conteúdo da página -->
+    <main>
+      <NuxtPage />
+    </main>
+
+    <!-- Footer global -->
+    <AppFooter />
   </div>
 </template>
 
