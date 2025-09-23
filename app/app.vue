@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Header global -->
-    <AppHeader />
+    <Header />
 
     <!-- Conteúdo da página -->
     <main>
@@ -9,7 +9,7 @@
     </main>
 
     <!-- Footer global -->
-    <AppFooter />
+    <Footer />
   </div>
 </template>
 
