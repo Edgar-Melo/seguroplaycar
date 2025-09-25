@@ -110,7 +110,7 @@
             <div class="aspect-square bg-neutral-100 rounded-xl overflow-hidden">
               <img
                 :src="guinchoImageSrc"
-                alt="Caminhão Guincho Seguro Play Car - Assistência 24h Oiapoque"
+                alt="Oficina Play Car - Serviços Automotivos Oiapoque"
                 class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 @error="handleImageError"
               />
@@ -153,14 +153,14 @@
 import BaseButton from '~/components/BaseButton.vue'
 
 // Caminho da imagem do guincho
-const guinchoImageSrc = '/img/guincho.jpg'
+const guinchoImageSrc = '/img/Oficina-Play-car.png'
 
 // Função para lidar com erro de carregamento da imagem
 const handleImageError = (event: Event) => {
   const img = event.target as HTMLImageElement
   // Fallback para uma imagem placeholder ou deixa a div vazia
   img.style.display = 'none'
-  console.warn('Imagem do guincho não encontrada. Adicione /public/img/guincho.jpg')
+  console.warn('Imagem da oficina não encontrada. Adicione /public/img/Oficina-Play-car.png')
 }
 </script>
 
