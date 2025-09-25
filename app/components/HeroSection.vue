@@ -109,9 +109,10 @@
             <!-- Imagem do caminhão guincho -->
             <div class="aspect-square bg-neutral-100 rounded-xl overflow-hidden border-4 border-primary-300">
               <img
-                src="/guincho.jpg"
+                :src="guinchoImageSrc"
                 alt="Caminhão Guincho Seguro Play Car - Assistência 24h Oiapoque"
                 class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                @error="handleImageError"
               />
             </div>
 
@@ -149,6 +150,17 @@
 
 <script setup lang="ts">
 import BaseButton from '~/components/BaseButton.vue'
+
+// Caminho da imagem do guincho
+const guinchoImageSrc = '/img/guincho.jpg'
+
+// Função para lidar com erro de carregamento da imagem
+const handleImageError = (event: Event) => {
+  const img = event.target as HTMLImageElement
+  // Fallback para uma imagem placeholder ou deixa a div vazia
+  img.style.display = 'none'
+  console.warn('Imagem do guincho não encontrada. Adicione /public/img/guincho.jpg')
+}
 </script>
 
 <style scoped>

@@ -1,0 +1,19 @@
+# Pasta de Imagens - Seguro Play Car
+# ==================================
+
+## Localização das Imagens:
+# c:\seguroplaycar\public\img\
+
+## Imagens necessárias:
+# - guincho.jpg (544x544px) - Caminhão guincho para o HeroSection
+# - [outras imagens conforme necessário]
+
+## Especificações:
+# - Formato: JPG, PNG ou WebP
+# - Caminho no código: /img/guincho.jpg
+# - Dimensões recomendadas: 544x544px (ou 1088x1088px para retina)
+
+## Como usar no código:
+# <img src="/img/guincho.jpg" alt="Descrição da imagem" />
+
+# Substitua este arquivo pelas suas imagens reais!
