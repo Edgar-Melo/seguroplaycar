@@ -105,7 +105,7 @@
 
         <!-- Conteúdo Direito - Espaço para Imagem -->
         <div class="relative">
-          <div class="relative bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl p-8 shadow-2xl">
+          <div class="relative">
             <!-- Imagem do caminhão guincho -->
             <div class="aspect-square bg-neutral-100 rounded-xl overflow-hidden">
               <img
@@ -118,6 +118,7 @@
 
             <!-- Elementos decorativos -->
             <div class="absolute -top-4 -right-4 w-24 h-24 bg-primary-500 rounded-full opacity-20"></div>
+            <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-primary-400 rounded-full opacity-10"></div>
             <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-primary-400 rounded-full opacity-10"></div>
           </div>
 
