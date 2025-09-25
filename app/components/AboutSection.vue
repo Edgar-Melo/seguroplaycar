@@ -209,12 +209,14 @@
             Entre em contato conosco e descubra como podemos ajudar a proteger e cuidar do seu veículo.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <BaseButton
-              text="Falar com Consultor"
-              variant="secondary"
-              size="lg"
-              class="bg-neutral-0 text-primary-600 hover:bg-neutral-100"
-            />
+            <NuxtLink to="/contato">
+              <BaseButton
+                text="Falar com Consultor"
+                variant="secondary"
+                size="lg"
+                class="bg-neutral-0 text-primary-600 hover:bg-neutral-100"
+              />
+            </NuxtLink>
             <BaseButton
               text="Ver Serviços"
               variant="outline"
