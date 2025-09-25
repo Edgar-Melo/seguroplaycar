@@ -1,0 +1,5 @@
+# Este é um arquivo placeholder
+# Substitua este arquivo pela sua imagem real: guincho.jpg
+# Dimensões recomendadas: 544x544px (ou maior para retina)
+# Formato: JPG, PNG ou WebP
+# Localização: c:\seguroplaycar\public\guincho.jpg
