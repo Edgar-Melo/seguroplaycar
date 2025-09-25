@@ -110,7 +110,7 @@
             <div class="aspect-square bg-neutral-100 rounded-xl overflow-hidden border-4 border-primary-300">
               <img
                 :src="guinchoImageSrc"
-                alt="Caminhão Guincho Seguro Play Car - Assistência 24h Oiapoque"
+                alt="Oficina Pay Car - Especialistas em Reparos Automotivos Oiapoque"
                 class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 @error="handleImageError"
               />
@@ -152,7 +152,7 @@
 import BaseButton from '~/components/BaseButton.vue'
 
 // Caminho da imagem do guincho
-const guinchoImageSrc = '/img/guincho.jpg'
+const guinchoImageSrc = '/img/Oficina-Pay-car.png'
 
 // Função para lidar com erro de carregamento da imagem
 const handleImageError = (event: Event) => {
